@@ -20,7 +20,7 @@ jobs:
           java-version: '17'
 
       - name: Extract Android project
-        run: unzip -q FULK_ANDROID_NATIVE_CORRECTED.zip -d android-project
+        run: unzip -q FULK_ANDROID_NATIVE_FINALFIX.zip -d android-project
 
       - name: Setup Gradle
         uses: gradle/actions/setup-gradle@v4
