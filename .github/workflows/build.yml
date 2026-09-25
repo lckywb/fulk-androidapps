@@ -19,7 +19,7 @@ jobs:
           distribution: temurin
           java-version: '17'
 
-      - - name: Extract Android project
+      -  name: Extract Android project
   run: unzip -q FULK_ANDROID_NATIVE_V2.zip -d android-project
 
       - name: Setup Gradle
